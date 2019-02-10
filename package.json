@@ -1,0 +1,20 @@
+{
+  "name": "@rdme/language-online-learning-project",
+  "version": "0.1.1",
+  "description": "OpenSource service for learning languages online for free",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "opensource",
+    "language",
+    "online",
+    "learning",
+    "project",
+    "free",
+    "service"
+  ],
+  "author": "Merlin Reichwald",
+  "license": "ISC"
+}
