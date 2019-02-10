@@ -16,5 +16,13 @@
     "service"
   ],
   "author": "Merlin Reichwald",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Merlin-R/language-online-learning-project.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Merlin-R/language-online-learning-project/issues"
+  },
+  "homepage": "https://github.com/Merlin-R/language-online-learning-project#readme"
 }
