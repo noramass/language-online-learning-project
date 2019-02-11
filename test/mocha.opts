@@ -1,0 +1,4 @@
+--color
+-r ts-node/register
+--reporter spec
+test/**/*.test.ts
