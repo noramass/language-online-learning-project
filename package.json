@@ -5,10 +5,10 @@
   "main": "dist/index.js",
   "scripts": {
     "test": "mocha",
-    "build:webapp": "babel",
+    "build:webapp": "babel -d dist/webapp src/webapp -D --minified --no-comments",
     "build:server": "tsc",
     "start": "node ./dist/server/index.js",
-    "start:dev": "tsnode --inspect ./src/server/index.ts",
+    "start:dev": "node --inspect -r ts-node/register  ./src/server/index.ts",
     "prettier": "prettier --write \"{src,test}/**/*.{js,ts,json,xml,html}\""
   },
   "husky": {
